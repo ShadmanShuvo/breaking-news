@@ -3,7 +3,7 @@ import {Card, Button} from 'react-bootstrap';
 
 const News = (props) => {
     console.log(props)
-    const {title, description, url} = props.article;
+    const {title, description} = props.article;
     return (
         <Card>
             <Card.Header>Featured</Card.Header>
